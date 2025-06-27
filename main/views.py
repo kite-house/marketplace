@@ -5,6 +5,16 @@ from rest_framework import viewsets
 
 # Create your views here.
 
+
+
+
+
+
+
+
+
+# ======================== API ========================
+
 class ProductApiView(viewsets.ModelViewSet):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
